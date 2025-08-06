@@ -1,8 +1,8 @@
-Hotel Reservation System
+**Hotel Reservation System**
 A basic console-based hotel reservation system built in Java using JDBC and MySQL.
 This project allows hotel staff to manage room bookings, view existing reservations, update details, and delete bookings.
 
-Tech Stack
+**Tech Stack**
 Java (JDK 17+ or higher)
 JDBC for database connectivity
 MySQL (local server)
@@ -13,8 +13,8 @@ View all current reservations in a table format
 Update an existing reservation
 Delete a reservation
 MySQL database integration
-Database Schema
-
+**Database Schema
+**
 CREATE DATABASE hotel_db;
 
 USE hotel_db;
@@ -26,7 +26,7 @@ CREATE TABLE reservations (
     contact_number VARCHAR(15),
     reservation_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
-How to Run
+**How to Run**
 Make sure MySQL is running on port 3306 or update it in the code.
 
 Update your database credentials in HotelReservationSystem.java:
