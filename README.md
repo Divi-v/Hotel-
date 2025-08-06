@@ -15,6 +15,8 @@ Delete a reservation
 MySQL database integration
 
 **Database Schema**
+
+
 CREATE DATABASE hotel_db;
 
 USE hotel_db;
