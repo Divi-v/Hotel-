@@ -13,8 +13,8 @@ View all current reservations in a table format
 Update an existing reservation
 Delete a reservation
 MySQL database integration
-**Database Schema
-**
+
+**Database Schema**
 CREATE DATABASE hotel_db;
 
 USE hotel_db;
